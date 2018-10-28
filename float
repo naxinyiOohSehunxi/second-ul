@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>浮动</title>
+	<style>
+		.div1,.div2,.div3{
+			height: 100px;
+			width: 100px;
+			border: 1px solid black;
+			float:left;
+		}
+		/*.div3::after{
+			content:"";
+			clear:both;
+			display:block;
+		}*/
+		.div{/*清除浮动流*/
+			clear:both;
+		}
+		.div1{
+			background-color: #0f0;
+		}
+		.div2{
+			background-color: #ff0;
+		}
+		.div3{
+			background-color: #00f;
+		}
+		.one,.two,.three{
+			border: 1px solid #000;
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	
+		<!-- <div class="content">
+			<a href="http://baidu.com">天猫</a>
+			<a href="http://baidu.com">淘宝</a>
+			<a href="http://baidu.com">京东</a>
+		</div> -->
+		<!-- <div class="wrapper">
+			<div class="father">
+				<div class="son">
+					<div class="grandson"></div>
+				</div>
+			</div>
+		</div> -->
+		<div class="div1">1</div>
+		<div class="div2">2</div>
+		<div class="div3">3</div>
+
+
+
+		<div class="div">
+			<div class="one">1</div>
+			<div class="two">2</div>
+			<div class="three">4</div>
+		</div>
+</body>
+
+
+</html>
