@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基础知识</title>
+	<style>
+		*{
+			margin:0
+			padding: 0;
+			list-style:none;
+			text-decoration: none;
+		}
+		.wrapper{
+			width: 1129px;
+			height: 100%;
+			background-color: #ff0;
+		}
+		.text{
+			width: 600px;
+			height: 100px;
+			margin:0 auto;
+			border: 1px solid #000;
+			background-color: #00f;
+		}
+		.text ul li{
+			float:left;
+			line-height:100px;
+			margin-right:20px;
+		}
+		.text ul li a{
+			color:#fff;
+			font-size:29px;
+			font-style:italic;
+			font-weight:bolder;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="text">
+			<ul>
+				<li><a href="#">吴世勋</a></li>
+				<li><a href="#">朴灿烈</a></li>
+				<li><a href="#">金俊勉</a></li>
+				<li><a href="#">秀敏</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
